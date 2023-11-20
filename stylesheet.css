@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.bg-custom {
+  background-color: rgba(210, 171, 153, 0.6);
+}
+
+*:focus {
+  box-shadow: 0px 0px !important;
+}
+
+.navbar-brand img {
+  width: 70%;
+}
+
+.social-link {
+  position: absolute;
+  transform: translate(33vw, 10vh);
+}
+
+.navbar a {
+  color: black;
+  font-weight: bold;
+}
+
+.container-custom {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 300px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6196078431);
+}
+
+.centered-button {
+  background-color: rgba(255, 165, 0, 0.2196078431);
+}
+
+.counter-cont {
+  background-color: rgba(255, 165, 0, 0.2196078431);
+  border-radius: 22px;
+  padding: 6px;
+  position: relative;
+  height: 100%;
+}
+
+.counter-cont sup {
+  position: absolute;
+  top: 0px;
+  font-size: 1.7rem;
+}
+
+.about-section h1 {
+  width: 70%;
+}
+
+.para-color {
+  color: rgba(255, 255, 255, 0.795);
+}
+
+.button {
+  padding: 0.75rem 1.25rem;
+  color: #fff;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.541);
+  z-index: -2;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: gray;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:before {
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-flex-column {
+    flex-direction: column;
+  }
+  .inside-col-padd {
+    padding-right: 114px;
+  }
+}
+@media only screen and (max-width: 767.9px) {
+  .navbar-brand img {
+    width: 30%;
+  }
+  .social-links div {
+    margin-right: 5px;
+  }
+  .nav-link {
+    padding-left: initial !important;
+    padding-right: initial;
+  }
+  .last-footer {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ps-4-5 {
+    padding-left: 1.9rem;
+  }
+  .nav-link {
+    padding-left: initial !important;
+    padding-right: initial;
+  }
+}
+.button-2 {
+  color: rgba(0, 0, 0, 0.89);
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.button-2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffeac7;
+  z-index: -2;
+}
+.button-2:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #f5d49b;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.button-2:hover {
+  color: #fff;
+}
+.button-2:hover:before {
+  width: 100%;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+.modal-content .modal-header {
+  border-bottom: none;
+}
+
+.fa-circle-play {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  left: 41%;
+  top: 36%;
+  font-size: 70px;
+  transition: all 0.2s ease-in 0.05s;
+}
+
+.fa-circle-play:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in 0.05s;
+}
+
+.img-size {
+  width: 60px;
+}
+
+.card-footer {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+.card-body {
+  padding-top: 3rem;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #e5a821 !important;
+}
+
+.portfolio {
+  background: #e7dca9;
+}
+
+.image-container {
+  display: flex;
+}
+
+.aspect-ratio-container {
+  position: relative;
+  width: 60%;
+  padding-bottom: 37%;
+}
+
+.equal-height-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul.footer-list li::marker {
+  content: ">   ";
+  font-weight: 800;
+  background-image: url("./img/arrow.svg");
+}
+
+.fa-brands {
+  font-size: 36px;
+}
+
+.me-2-1 {
+  margin-right: 1.2rem;
+  font-family: "Playfair Display", serif !important;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.904);
+  color: white;
+}/*# sourceMappingURL=stylesheet.css.map */
